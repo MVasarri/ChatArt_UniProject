@@ -1,0 +1,35 @@
+/* * {box-sizing: border-box;} */
+body { 
+  margin: 0;
+  height: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url(./icon-museum.png); 
+  background-size: 40%; 
+  background-repeat: no-repeat; 
+  background-attachment: fixed; 
+  background-position: center; 
+  
+}
+
+.navbar {
+  background-color: #344853; 
+  box-shadow: 0px 0px 20px 0px #000000bf;
+/*   height: 60px; */
+}
+
+
+#content {
+  margin-top:60px; 
+  margin-bottom:60px;
+  margin-left: 0.1rem; 
+  margin-right: 0.1rem;
+  
+}
+
+.card:hover{
+  box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.75);  
+  transform: scale(1.01);
+}
+
+
+

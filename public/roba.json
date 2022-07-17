@@ -1,0 +1,84 @@
+{
+    "apiUrl": "http://en.wikipedia.org/w/api.php",
+	"origin": "*",
+    "format": "json",
+    "action": "query",
+    "redirects": "",
+    "prop": "description|pageimages|extracts",
+    "generator": "search",
+    "formatversion": "2",
+    "pithumbsize": "1920",
+    "exintro": 1,
+    "explaintext": 1,
+    "gsrsearch": title,
+    "gsrenablerewrites": 1,
+    "gsrsort": "relevance"
+};
+
+{
+    "apiUrl": "http://en.wikipedia.org/w/api.php",
+	"origin": "*",
+}
+
+{
+    "apiUrl": "http://en.wikipedia.org/w/api.php",
+	"origin": "*",
+    "format": "json",
+	"action": "query",
+	"prop": "description|pageimages|extracts",
+	"generator": "search",
+	"redirects": 1,
+	"formatversion": "2",
+	"piprop": "thumbnail|name|original",
+	"pithumbsize": "1080",
+	"pilicense": "any",
+	"descprefersource": "central",
+	"exintro": 1,
+	"explaintext": 1,
+	"gsrsearch": "mona lisa",
+	"gsrnamespace": "0",
+	"gsrinterwiki": 1,
+	"gsrenablerewrites": 1,
+	"gsrsort": "relevance"
+}
+
+{
+    "apiUrl": "http://en.wikipedia.org/w/api.php",
+    "format": "json",
+	"action": "query",
+	"format": "json",
+	"prop": "description|pageimages|extracts",
+	"generator": "search",
+	"gsrsearch": "mona lisa",
+    ...
+}
+
+[
+    {
+      pageid: 70889,
+      title: 'Mona Lisa',
+      description: 'Painting by Leonardo da Vinci',
+      imageName: 'Mona_Lisa,_by_Leonardo_da_Vinci,_from_...',
+      imageSource: 'https://upload.wikimedia.org/wikipe...',
+      abstract: `The Mona Lisa ...
+    },
+    ...
+]
+
+{
+question: 'Who is the author of this painting?',
+imageSource: 'https://upload.wikimedia.org/wikipe...',
+abstract: 'The Mona Lisa ...'
+}
+
+{
+    question: 'Who is the author of this painting?',
+    imageSource: 'https://upload.wikimedia.org/wikipe...',
+    abstract: 'The Mona Lisa ...'
+    answer: 'Leonardo da Vinci'
+}
+
+{
+    answer: 'Leonardo da Vinci'
+}
+

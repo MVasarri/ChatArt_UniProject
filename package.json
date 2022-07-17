@@ -1,0 +1,21 @@
+{
+  "name": "progetto_test1",
+  "version": "1.0.0",
+  "description": "Progetto WikiArt ChatBot",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "wikiArt",
+    "chat",
+    "bot"
+  ],
+  "author": "Matteo Vasarri",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.1",
+    "node-fetch": "^3.2.4"
+  }
+}
